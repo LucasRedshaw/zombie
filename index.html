@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="images/icon.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zombie Defence CLicker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+
+  <div id="popupCard" class="popup-card">
+    <div class="popup-content">
+      <span id="closePopup" class="close">&times;</span>
+      <h2>Menu</h2>
+      <div id="ExpTotal">Exp: 0</div>
+      <button id="StartButton">Start Game</button>
+    </div>
+  </div>
+
+
+  <div id="RunTime">Run Time: 0</div>
+  <div id="Health">Health: 100</div>
+  <div id="Zombies">Zombies: 0 / 0</div>
+  <div id="ZombiesPerTick">Zombies Per Second: 0</div>
+  <div id="Exp">Exp: 0</div>
+  <div id="SentryTurrets">Sentry Turrets: 0</div>
+
+  <br>
+  <button id="ShootZombie">Shoot Zombie</button>
+  <br>
+
+  <div class="turret-card">
+    <h3>Sentry Turret</h3>
+    <p>Cost: 10 Exp</p>
+    <p>Automatically kills zombies.</p>
+    <button id="SentryButton">Buy Sentry Turret</button>
+  </div>
+
+
+  <div class="stake-card">
+    <h3>Wooden Stake</h3>
+    <p>Cost: 10 Exp</p>
+    <p>Deals 10 damage to a zombie.</p>
+    <button id="WoodenStakeButton">Buy Wooden Stake</button>
+  </div>
+
+
+  <body>
+    
+    <script src="script.js"></script>
+    <script src="ui.js"></script>
+    <script src="buttons.js"></script>
+    <script src="loop.js"></script>
+    <script src="helpers.js"></script>
+    <script src="vars.js"></script>
+    <script src="menu.js"></script>
+  </body>
+</html>
