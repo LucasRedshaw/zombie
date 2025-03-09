@@ -29,3 +29,9 @@ function upgradecost(cost, owned) {
     let newcost = cost * 2**owned;
     return newcost;
 }
+
+function calculateDamage() {
+    let damage = 0;
+    damage += SentryTurrets * 1;
+    return damage;
+}

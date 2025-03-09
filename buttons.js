@@ -8,7 +8,7 @@ document.getElementById('ShootZombie').addEventListener('click', function() {
 document.getElementById('SentryButton').addEventListener('click', function() {
     console.log('Sentrey Turret Deployed');
     if (Exp >= SentryTurretCost) {
-        Exp -= 10;
+        Exp -= SentryTurretCost;
         SentryTurrets += 1;
         newcost = upgradecost(SentryTurretBase, SentryTurrets);
         SentryTurretCost = newcost;

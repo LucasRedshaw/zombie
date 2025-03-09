@@ -1,9 +1,8 @@
 function gameLoop() {
     Zombies += Math.floor(Tick / 20)+1;
     Tick += 1;
-    if (SentryTurrets > 0) {
-        killZombie(SentryTurrets);
-    }
+    let damage = calculateDamage();
+    killZombie(damage);
     if (Zombies > Defence) {
         Health -= Zombies - Defence;
     }
@@ -12,6 +11,7 @@ function gameLoop() {
         openmenu();
 
     }
+    
     updateUI();
 
   }
