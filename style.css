@@ -59,14 +59,16 @@ body, h2, h3, p, div, span, button {
 }
 
 .stake-sprite {
-  background-image: none; /* Remove the background image */
-  background-color: grey; /* Grey background */
-  color: white; /* White text color */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px; /* Adjust the font size as needed */
-  border: 2px solid; /* Border color will be set dynamically */
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  background-color: white;
+  background-image: url('woodenspike.webp'); /* Path to your zombie sprite image */
+  background-size: cover;
+  display: inline-block;
+  margin: 5px; /* Adjust the margin as needed */
+  border-radius: 50%; /* Make it a circle */
+  border: 2px solid grey; /* Grey border */
+  position: relative;
 }
 
 body {
