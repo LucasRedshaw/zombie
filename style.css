@@ -23,7 +23,7 @@ body, h2, h3, p, div, span, button {
   height: 75px;
 }
 
-#StakeSprites {
+#WoodenStakeSprites {
   height: 75px;
 }
 
@@ -96,7 +96,7 @@ body {
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 30%; /* Could be more or less, depending on screen size */
   color: black;
 }
 

@@ -15,13 +15,6 @@ function closemenu() {
   popupCard.style.display = "none";
 }
 
-// When the user clicks on <span> (x), close the pop-up card
-span.onclick = function() {
-  popupCard.style.display = "none";
-}
-
-
-
 // When the user clicks anywhere outside of the pop-up card, close it
 window.onclick = function(event) {
   if (event.target == popupCard) {

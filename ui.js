@@ -13,11 +13,20 @@ function updateUI() {
     document.getElementById('statbar').textContent = 'Run Time ⌛: ' + Tick +'   |   Health ❤️: ' + Health +'    |    Experience ✨: ' + Exp +' ';
     document.getElementById('SentryTurrets').textContent = 'Owned: ' + SentryTurrets 
     document.getElementById('SentryCost').textContent = 'Cost: ' + SentryTurretCost;
+    document.getElementById('WoodenStakes').textContent = 'Owned: ' + WoodenStakes;
+    document.getElementById('StakeCost').textContent = 'Cost: ' + WoodenStakeCost;
     document.getElementById('ExpTotal').textContent = 'Exp Total: ' + ExpTotal;
+    document.getElementById('totalexp').textContent = 'Total Exp: ' + ExpTotal;
+    document.getElementById('TougherBullets').textContent = 'Owned: ' + TougherBullets;
+    document.getElementById('TougherBulletsCost').textContent = 'Cost: ' + TougherBulletsCost;
+    document.getElementById('LongestRun').textContent = 'Longest Run: ' + LongestRun + '(s)';
+    document.getElementById('TotalZombieKills').textContent = 'Total Zombie Kills: ' + TotalZombieKills;
+    document.getElementById('PermanentSentry').textContent = 'Owned: ' + PermanentSentryTurrets;
+    document.getElementById('PermanentSentryCost').textContent = 'Cost: ' + PermanentSentryTurretCost;
   }
 
 
-function openTab(evt, tabName) {
+function openTab(evt, tabName) {  
   // Declare all variables
   var i, tabcontent, tablinks;
 
